@@ -12,6 +12,7 @@ struct gameOfLifeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .navigationTitle("Game of Life")
         }
     }
 }
